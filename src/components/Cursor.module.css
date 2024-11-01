@@ -1,0 +1,22 @@
+/* components/Cursor.module.css */
+
+.cursorInner {
+  position: fixed;
+  pointer-events: none;
+  top: 0;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  background-color: #40b981;
+  opacity: 0.8;
+  border-radius: 50%;
+  transition: transform 0.3s ease, width 0.3s ease, height 0.3s ease,
+    opacity 0.3s ease; /* Smooth transitions */
+  transform: translate(-50%, -50%);
+}
+
+.hovered {
+  width: 40px; /* Expanded size */
+  height: 40px; /* Expanded size */
+  opacity: 0.4; /* Change in opacity */
+}
