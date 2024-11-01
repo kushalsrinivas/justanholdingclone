@@ -40,7 +40,7 @@ export default function WhoWe() {
                 </p>
                 <a
                   href="#"
-                  className="text-green-500 hover:text-green-400 transition-colors"
+                  className="text-gray-500 hover:text-green-400 transition-colors"
                 >
                   DISCOVER MORE
                 </a>
@@ -59,7 +59,7 @@ export default function WhoWe() {
                 </p>
                 <a
                   href="#"
-                  className="text-green-500 hover:text-green-400 transition-colors"
+                  className="text-gray-500 hover:text-green-400 transition-colors"
                 >
                   DISCOVER MORE
                 </a>
@@ -77,14 +77,14 @@ export default function WhoWe() {
                 </p>
                 <a
                   href="#"
-                  className="text-green-500 hover:text-green-400 transition-colors"
+                  className="text-gray-500 hover:text-green-400 transition-colors"
                 >
                   CONTACT US
                 </a>
               </div>
 
               <div>
-                <Heart className="w-8 h-8 mb-4" />
+                <Heart className="w-8 h-8 mb-4 " />
                 <h3 className="text-xl font-semibold mb-3">
                   Philanthropy and Charity
                 </h3>
@@ -95,7 +95,7 @@ export default function WhoWe() {
                 </p>
                 <a
                   href="#"
-                  className="text-green-500 hover:text-green-400 transition-colors"
+                  className="text-gray-500 hover:text-green-400 transition-colors"
                 >
                   DISCOVER MORE
                 </a>
