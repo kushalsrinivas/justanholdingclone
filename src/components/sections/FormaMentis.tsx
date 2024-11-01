@@ -1,6 +1,7 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { MessageCircle, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 export default function ContactSection() {
   return (
@@ -23,10 +24,14 @@ export default function ContactSection() {
         </div>
 
         {/* Right Side: Placeholder for Building Image */}
-        <div className="bg-gray-700 p-8 flex items-center justify-center">
-          <div className="h-64 w-full bg-gray-500 flex items-center justify-center">
-            <p className="text-white text-lg">Image Placeholder</p>
-          </div>
+        <div className="relative">
+          <Image
+            src="/tellus.jpg"
+            alt="London cityscape"
+            width={800}
+            height={600}
+            className="w-full h-[500px] object-cover"
+          />
         </div>
       </div>
 

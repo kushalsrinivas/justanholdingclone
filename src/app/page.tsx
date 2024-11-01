@@ -17,7 +17,7 @@ export default function Component() {
         <header className="fixed top-0 w-full z-50 px-6 py-4">
           <nav className="flex items-center justify-between">
             <Link href="/" className="text-2xl font-bold">
-              JUST AN <span className="text-[#96D800]">XOLDING</span>
+              VERDIAN <span className="text-black">APEX</span>
             </Link>
             <div className="flex items-center space-x-6">
               <Link
@@ -57,14 +57,14 @@ export default function Component() {
         <main className="relative h-screen overflow-hidden">
           <div className="absolute inset-0">
             <Image
-              src="/placeholder.svg?height=1080&width=1920"
+              src="/hero.jpg"
               alt="London cityscape"
               width={1920}
               height={1080}
-              className="object-cover w-full h-full grayscale"
+              className="object-cover w-full h-full opacity-50 grayscale"
               priority
             />
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent to-[#96D800]/50" />
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black/50" />
             <div className="absolute right-0 top-0 bottom-0 w-1/2 bg-[#0D1117]" />
           </div>
 
