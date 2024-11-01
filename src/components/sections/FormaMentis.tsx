@@ -13,7 +13,7 @@ export default function ContactSection() {
             <p className="text-xs uppercase text-gray-400 mb-2">
               Our Forma Mentis
             </p>
-            <h2 className="text-4xl font-bold leading-snug">
+            <h2 className="text-4xl font-serif  leading-snug">
               <span className="text-green-500">
                 Innovative Leadership, Strategic Vision:
               </span>{" "}
