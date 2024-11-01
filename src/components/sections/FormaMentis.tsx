@@ -1,4 +1,4 @@
-import { Card, CardContent } from "@/components/ui/card";
+import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { MessageCircle, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
@@ -32,48 +32,57 @@ export default function ContactSection() {
 
       {/* Contact and Address Section */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-8 p-8 lg:p-12">
-        {/* Contact Information Card */}
-        <Card className="bg-gray-800 p-8 flex-1 flex flex-col items-start justify-center mb-4 lg:mb-0">
-          <CardContent className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <MessageCircle className="text-white" size={28} />
-              <p className="text-lg font-semibold">Get in touch!</p>
-            </div>
-            <p className="text-sm">
-              Business and General inquiries:{" "}
-              <a
-                href="mailto:info@justanholding.co.uk"
-                className="text-green-500 underline"
-              >
-                info@justanholding.co.uk
-              </a>
-            </p>
-            <Button className="mt-4 bg-green-500 text-white px-6 py-2 rounded hover:bg-green-600">
-              WhatsApp
-            </Button>
-          </CardContent>
-        </Card>
+        <div className="bg-gray-700 h-64 ">
+          <p className="text-white text-lg">Map Placeholder</p>
+        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 ">
+          {/* Contact Information Card */}
+          <Card className="bg-gray-800 p-8 text-white flex-1 flex flex-col items-start justify-center mb-4 border-none rounded-none lg:mb-0">
+            <CardHeader>
+              <div className="flex items-center space-x-2">
+                <MessageCircle className="text-white" size={28} />
+                <p className="text-lg font-semibold">Get in touch!</p>
+              </div>
+            </CardHeader>
+            <CardContent className="space-y-">
+              <p className="text-sm">
+                Business and General inquiries:{" "}
+                <a
+                  href="mailto:info@justanholding.co.uk"
+                  className="text-green-500 underline"
+                >
+                  info@justanholding.co.uk
+                </a>
+              </p>
+              <Button className="mt-4 bg-green-500 text-black px-6 py-2 rounded hover:bg-green-600">
+                WhatsApp
+              </Button>
+            </CardContent>
+          </Card>
 
-        {/* Legal Address Card */}
-        <Card className="bg-gray-800 p-8 flex-1 flex flex-col items-start justify-center">
-          <CardContent className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <MapPin className="text-white" size={28} />
-              <p className="text-lg font-semibold">Legal address</p>
-            </div>
-            <p className="text-sm">
-              71-75 Shelton Street, WC2H 9JQ
-              <br />
-              London, United Kingdom
-            </p>
-          </CardContent>
-        </Card>
+          {/* Legal Address Card */}
+          <Card className="bg-gray-800 p-8 text-white flex-1 flex flex-col items-start justify-center mb-4 border-none rounded-none lg:mb-0">
+            <CardHeader>
+              <div className="flex items-center space-x-2">
+                <MapPin className="text-white" size={28} />
+                <p className="text-lg font-semibold">Legal address</p>
+              </div>
+            </CardHeader>
+            <CardContent className="space-y-">
+              <p className="text-sm">
+                71-75 Shelton Street, WC2H 9JQ
+                <br />
+                London, United Kingdom
+              </p>
+              <Button className="mt-4 bg-green-500 text-black px-6 py-2 rounded hover:bg-green-600">
+                maps
+              </Button>
+            </CardContent>
+          </Card>
+        </div>
       </div>
 
       {/* Map Section with Placeholder */}
-      <div className="bg-gray-700 h-64 flex items-center justify-center">
-        <p className="text-white text-lg">Map Placeholder</p>
-      </div>
     </div>
   );
 }
