@@ -28,7 +28,7 @@ function TellusAboutYou() {
               ventures.
             </span>{" "}
           </h2>
-          <Button className="mt-4 bg-green-500 text-black">
+          <Button className="mt-4 bg-white text-black">
             Tell Us About You
           </Button>
         </div>

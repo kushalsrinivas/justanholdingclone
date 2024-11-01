@@ -13,10 +13,10 @@ export default function ContactSection() {
             <p className="text-xs uppercase text-gray-400 mb-2">
               Our Forma Mentis
             </p>
-            <h2 className="text-4xl font-serif  leading-snug">
-              <span className="text-green-500">
+            <h2 className="text-4xl font-serif text-gray-500 leading-snug">
+              <span className="text-white">
                 Innovative Leadership, Strategic Vision:
-              </span>{" "}
+              </span>
               Driving growth through expertise, integrity, and collaboration.
             </h2>
           </div>
@@ -54,7 +54,7 @@ export default function ContactSection() {
                   info@justanholding.co.uk
                 </a>
               </p>
-              <Button className="mt-4 bg-green-500 text-black px-6 py-2 rounded hover:bg-green-600">
+              <Button className="mt-4 bg-white text-black px-6 py-2 rounded hover:bg-green-600">
                 WhatsApp
               </Button>
             </CardContent>

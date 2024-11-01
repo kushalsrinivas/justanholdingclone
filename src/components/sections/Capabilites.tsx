@@ -10,7 +10,7 @@ import TradingCards from "./TradingCards";
 
 export default function Capabilites() {
   return (
-    <section className="bg-[#0a1520] text-white py-16 md:py-24">
+    <section className="bg-black text-white py-16 md:py-24">
       <div className="container mx-auto px-4">
         {/* Top Section */}
         <div className="grid md:grid-cols-2 gap-12 mb-16">

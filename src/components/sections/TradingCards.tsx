@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function TradingCards() {
   return (
-    <section className="bg-[#0a1520] text-white py-16">
+    <section className="bg-black text-white py-16">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-6">
           {/* Commodities Card */}
@@ -83,7 +83,7 @@ export default function TradingCards() {
                 className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
               />
               <div className="absolute top-4 right-4 z-20">
-                <button className="flex items-center gap-2 bg-[#7AB80E] text-white px-4 py-2 text-sm hover:bg-[#699A0D] transition-colors">
+                <button className="flex items-center gap-2 bg-white text-black px-4 py-2 text-sm hover:bg-black/40 transition-colors">
                   <Download className="w-4 h-4" />
                   DOWNLOAD THE SHEET
                 </button>

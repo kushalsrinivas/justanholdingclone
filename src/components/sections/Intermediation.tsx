@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function Intermediation() {
   return (
-    <div className="bg-[#0a1520]">
+    <div className="bg-black">
       {/* Logo Bar */}
-      <div className="container mx-auto px-4 py-8">
+      <div className="container opacity-70 mx-auto px-4 py-8">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center">
           <div className="text-white text-2xl font-bold">Dubleclik</div>
           <div className="text-center">
@@ -28,15 +28,15 @@ export default function Intermediation() {
       <div className="grid md:grid-cols-2">
         {/* Left Panel */}
         <div className="relative">
-          <div className="absolute inset-0 bg-black/60 z-10" />
+          {/* <div className="absolute inset-0 bg-black/60 z-10" />
           <Image
             src="/placeholder.svg"
             alt="Business meeting"
             width={800}
             height={600}
             className="w-full h-[500px] object-cover"
-          />
-          <div className="absolute inset-0 z-20 p-12 flex flex-col justify-center">
+          /> */}
+          <div className="absolute bg-black inset-0 z-20 p-12 flex flex-col justify-center">
             <div className="text-gray-400 mb-4 tracking-wider">
               INTERMEDIATION
             </div>
@@ -52,7 +52,7 @@ export default function Intermediation() {
 
         {/* Right Panel */}
         <div className="relative">
-          <div className="absolute inset-0 bg-[#7AB80E]/80 mix-blend-multiply z-10" />
+          <div className="absolute inset-0 bg-black mix-blend-multiply z-10" />
           <Image
             src="/placeholder.svg"
             alt="London cityscape"
