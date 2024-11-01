@@ -1,27 +1,30 @@
-"use client"
+"use client";
 
-import { Download } from "lucide-react"
-import Image from "next/image"
+import { Download } from "lucide-react";
+import Image from "next/image";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion"
+} from "@/components/ui/accordion";
 
-export default function Component() {
+export default function Capabilites() {
   return (
     <section className="bg-[#0a1520] text-white py-16 md:py-24">
       <div className="container mx-auto px-4">
         {/* Top Section */}
         <div className="grid md:grid-cols-2 gap-12 mb-16">
           <div>
-            <h2 className="text-sm uppercase tracking-wider mb-6 text-gray-400">CAPABILITIES</h2>
+            <h2 className="text-sm uppercase tracking-wider mb-6 text-gray-400">
+              CAPABILITIES
+            </h2>
             <h1 className="text-5xl md:text-6xl font-serif leading-tight">
-              Putting our focus to satisfy both parts necessities with concrete solutions.
+              Putting our focus to satisfy both parts necessities with concrete
+              solutions.
             </h1>
           </div>
-          
+
           <div className="self-center">
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1" className="border-white/20">
@@ -29,7 +32,8 @@ export default function Component() {
                   Qualified partner research
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-400">
-                  We conduct thorough research to find the most qualified partners for your business needs.
+                  We conduct thorough research to find the most qualified
+                  partners for your business needs.
                 </AccordionContent>
               </AccordionItem>
 
@@ -38,7 +42,8 @@ export default function Component() {
                   Due diligence process
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-400">
-                  Our comprehensive due diligence process ensures all aspects of the partnership are thoroughly vetted.
+                  Our comprehensive due diligence process ensures all aspects of
+                  the partnership are thoroughly vetted.
                 </AccordionContent>
               </AccordionItem>
 
@@ -47,7 +52,8 @@ export default function Component() {
                   Legal and diplomatic assistance
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-400">
-                  We provide expert legal and diplomatic support throughout the entire process.
+                  We provide expert legal and diplomatic support throughout the
+                  entire process.
                 </AccordionContent>
               </AccordionItem>
 
@@ -56,7 +62,8 @@ export default function Component() {
                   Payment management
                 </AccordionTrigger>
                 <AccordionContent className="text-gray-400">
-                  Secure and efficient payment management solutions for all transactions.
+                  Secure and efficient payment management solutions for all
+                  transactions.
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
@@ -106,5 +113,5 @@ export default function Component() {
         </div>
       </div>
     </section>
-  )
+  );
 }

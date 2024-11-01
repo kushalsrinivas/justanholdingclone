@@ -4,6 +4,7 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import WhoWe from "@/components/sections/Whowe";
 import Intermediation from "@/components/sections/Intermediation";
+import Capabilites from "@/components/sections/Capabilites";
 
 export default function Component() {
   return (
@@ -77,6 +78,7 @@ export default function Component() {
       </div>
       <WhoWe></WhoWe>
       <Intermediation></Intermediation>
+      <Capabilites></Capabilites>
     </>
   );
 }
