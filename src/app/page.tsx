@@ -5,6 +5,10 @@ import { Button } from "@/components/ui/button";
 import WhoWe from "@/components/sections/Whowe";
 import Intermediation from "@/components/sections/Intermediation";
 import Capabilites from "@/components/sections/Capabilites";
+import Statistics from "@/components/sections/Stats";
+import ContactSection from "@/components/sections/FormaMentis";
+import TellusAboutYou from "@/components/sections/TellusAboutYou";
+import Footer from "@/components/sections/Footer";
 
 export default function Component() {
   return (
@@ -79,6 +83,10 @@ export default function Component() {
       <WhoWe></WhoWe>
       <Intermediation></Intermediation>
       <Capabilites></Capabilites>
+      <Statistics></Statistics>
+      <ContactSection></ContactSection>
+      <TellusAboutYou></TellusAboutYou>
+      <Footer></Footer>
     </>
   );
 }

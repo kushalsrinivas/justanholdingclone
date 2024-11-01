@@ -1,13 +1,12 @@
 "use client";
 
-import { Download } from "lucide-react";
-import Image from "next/image";
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import TradingCards from "./TradingCards";
 
 export default function Capabilites() {
   return (
@@ -69,49 +68,8 @@ export default function Capabilites() {
             </Accordion>
           </div>
         </div>
-
-        {/* Image Grid */}
-        <div className="grid md:grid-cols-3 gap-4">
-          <div className="relative group overflow-hidden">
-            <div className="absolute inset-0 bg-[#7AB80E]/60 mix-blend-multiply z-10" />
-            <Image
-              src="/placeholder.svg"
-              alt="Oil rig and silver bars"
-              width={400}
-              height={300}
-              className="w-full h-[300px] object-cover transition-transform duration-300 group-hover:scale-110"
-            />
-          </div>
-
-          <div className="relative group overflow-hidden">
-            <div className="absolute inset-0 bg-[#7AB80E]/60 mix-blend-multiply z-10" />
-            <Image
-              src="/placeholder.svg"
-              alt="Cryptocurrency coins"
-              width={400}
-              height={300}
-              className="w-full h-[300px] object-cover transition-transform duration-300 group-hover:scale-110"
-            />
-          </div>
-
-          <div className="relative group overflow-hidden">
-            <div className="absolute inset-0 bg-[#7AB80E]/60 mix-blend-multiply z-10" />
-            <Image
-              src="/placeholder.svg"
-              alt="Glass containers with green powder"
-              width={400}
-              height={300}
-              className="w-full h-[300px] object-cover transition-transform duration-300 group-hover:scale-110"
-            />
-            <div className="absolute inset-0 z-20 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
-              <button className="flex items-center gap-2 bg-white text-black px-6 py-3 rounded-sm hover:bg-gray-100 transition-colors">
-                <Download className="w-4 h-4" />
-                DOWNLOAD THE SHEET
-              </button>
-            </div>
-          </div>
-        </div>
       </div>
+      <TradingCards></TradingCards>
     </section>
   );
 }
