@@ -16,8 +16,10 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "VERIDIAN APEX GROUP",
-  description: "a sexy ahh grouop",
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
+  description: "a sexy ahh group",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
@@ -27,6 +29,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <link rel="icon" href="/favicon.ico" sizes="any" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
