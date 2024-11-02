@@ -32,7 +32,9 @@ const Cursor: React.FC = () => {
 
   return (
     <div
-      className={`${styles.cursorInner} ${isHovered ? styles.hovered : ""}`}
+      className={`z-50 ${styles.cursorInner} ${
+        isHovered ? styles.hovered : ""
+      }`}
       style={{
         transform: `translate(${position.x}px, ${position.y}px)`,
       }}
