@@ -9,6 +9,8 @@ import Statistics from "@/components/sections/Stats";
 import ContactSection from "@/components/sections/FormaMentis";
 import TellusAboutYou from "@/components/sections/TellusAboutYou";
 import Footer from "@/components/sections/Footer";
+import { GlobeDemo } from "@/components/sections/GlobeDemo";
+import Globe from "@/components/ui/globe";
 
 export default function Component() {
   return (
@@ -54,24 +56,22 @@ export default function Component() {
           </nav>
         </header>
 
-        <main className="relative h-screen overflow-hidden">
+        <main className="relative h-screen overflow-hidden bg-black">
           <div className="absolute inset-0">
-            <Image
-              src="/hero.jpg"
-              alt="London cityscape"
-              width={1920}
-              height={1080}
-              className="object-cover w-full h-full opacity-50 grayscale"
-              priority
-            />
-            <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black/50" />
-            <div className="absolute right-0 top-0 bottom-0 w-1/2 bg-[#0D1117]" />
+            {/* <div className="absolute inset-0 bg-gradient-to-r from-transparent to-black/50"></div> */}
+            <div className="absolute right-0 top-0 bottom-0 w-1/2 bg-black">
+              <div className="relative h-full">
+                <div className="absolute inset-0 top-0 right-0 h-full w-full z-10 bg-black opacity-35"></div>
+
+                <Globe className=" top-28 bg-black text-white grayscale"></Globe>
+              </div>
+            </div>
           </div>
 
-          <div className="relative h-full flex items-center">
+          <div className="relative h-full  flex items-center z-50">
             <div className="container mx-auto px-6">
-              <div className="max-w-3xl ml-auto">
-                <h1 className="text-5xl md:text-6xl lg:text-7xl font-serif leading-tight">
+              <div className="max-w-3xl ">
+                <h1 className="text-5xl md:text-6xl  lg:text-7xl z-50 font-serif leading-tight">
                   Passion and competence merged together in a dynamic
                   entrepreneurial ecosystem.
                 </h1>
