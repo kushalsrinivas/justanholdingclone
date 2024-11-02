@@ -3,9 +3,9 @@ import Image from "next/image";
 
 export default function Intermediation() {
   return (
-    <div className="bg-black">
+    <div className="bg-black ">
       {/* Logo Bar */}
-      <div className="container opacity-70 mx-auto px-4 py-8">
+      <div className="container opacity-70 mx-auto px-4 py-8 mb-10">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center">
           <div className="text-white text-2xl font-bold">Dubleclik</div>
           <div className="text-center">

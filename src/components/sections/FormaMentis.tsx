@@ -37,10 +37,24 @@ export default function ContactSection() {
 
       {/* Contact and Address Section */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-8 p-8 lg:p-12">
-        <div className="bg-gray-700 h-64 ">
-          <p className="text-white text-lg">Map Placeholder</p>
+        <div className="bg-gray-700 h-64">
+          <div
+            className="relative w-full overflow-hidden"
+            style={{ paddingTop: "56.25%" }}
+          >
+            {/* Responsive Map Container */}
+            <iframe
+              title="Google Map"
+              className="absolute top-0 left-0 w-full h-full"
+              frameBorder="0"
+              scrolling="no"
+              marginHeight="0"
+              marginWidth="0"
+              src="https://maps.google.com/maps?width=600&height=400&hl=en&q=wyoming&t=&z=14&ie=UTF8&iwloc=B&output=embed"
+            ></iframe>
+          </div>
         </div>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 ">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-0">
           {/* Contact Information Card */}
           <Card className="bg-black p-8 border-r border-gray-200 text-white flex-1 flex flex-col items-start justify-center mb-4 border-none rounded-none lg:mb-0">
             <CardHeader>
@@ -66,7 +80,7 @@ export default function ContactSection() {
           </Card>
 
           {/* Legal Address Card */}
-          <Card className="bg-black  p-8 text-white border-l border-gray-200 flex-1 flex flex-col items-start justify-center mb-4 border-none rounded-none lg:mb-0">
+          <Card className="bg-black p-8 text-white border-l border-gray-200 flex-1 flex flex-col items-start justify-center mb-4 border-none rounded-none lg:mb-0">
             <CardHeader>
               <div className="flex items-center space-x-2">
                 <MapPin className="text-white" size={28} />
@@ -79,7 +93,6 @@ export default function ContactSection() {
                 <br />
                 London, United Kingdom
               </p>
-              <div className="mt-4 px-6 py-2"></div>
             </CardContent>
           </Card>
         </div>
