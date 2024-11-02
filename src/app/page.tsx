@@ -1,6 +1,6 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
+
 import { Button } from "@/components/ui/button";
 import WhoWe from "@/components/sections/Whowe";
 import Intermediation from "@/components/sections/Intermediation";
@@ -9,7 +9,7 @@ import Statistics from "@/components/sections/Stats";
 import ContactSection from "@/components/sections/FormaMentis";
 import TellusAboutYou from "@/components/sections/TellusAboutYou";
 import Footer from "@/components/sections/Footer";
-import { GlobeDemo } from "@/components/sections/GlobeDemo";
+
 import Globe from "@/components/ui/globe";
 
 export default function Component() {
