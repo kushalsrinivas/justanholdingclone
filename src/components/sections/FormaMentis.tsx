@@ -46,10 +46,10 @@ export default function ContactSection() {
             <iframe
               title="Google Map"
               className="absolute top-0 left-0 w-full h-full"
-              frameBorder="0"
+              frameBorder={0}
               scrolling="no"
-              marginHeight="0"
-              marginWidth="0"
+              marginHeight={0}
+              marginWidth={0}
               src="https://maps.google.com/maps?width=600&height=400&hl=en&q=wyoming&t=&z=14&ie=UTF8&iwloc=B&output=embed"
             ></iframe>
           </div>
