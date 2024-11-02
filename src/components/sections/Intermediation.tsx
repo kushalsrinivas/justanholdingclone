@@ -51,8 +51,8 @@ export default function Intermediation() {
         </div>
 
         {/* Right Panel */}
-        <div className="relative">
-          <div className="absolute inset-0 bg-black opacity-50 mix-blend-multiply z-10" />
+        <div className="relative ">
+          <div className="absolute  inset-0 bg-black opacity-50 mix-blend-multiply z-10" />
           <Image
             src="/handshake.jpg"
             alt="London cityscape"

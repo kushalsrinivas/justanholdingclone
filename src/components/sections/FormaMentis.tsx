@@ -37,7 +37,7 @@ export default function ContactSection() {
 
       {/* Contact and Address Section */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-8 p-8 lg:p-12">
-        <div className="bg-gray-700 h-64">
+        <div className="bg-black h-64">
           <div
             className="relative w-full overflow-hidden"
             style={{ paddingTop: "56.25%" }}
