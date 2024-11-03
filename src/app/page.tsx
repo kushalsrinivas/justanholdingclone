@@ -33,10 +33,10 @@ export default function Component() {
             </Link>
             <div className="hidden md:flex items-center space-x-6">
               <Link
-                href="/ventures"
+                href="/forma-mentis"
                 className="hover:text-[#96D800] transition-colors"
               >
-                <span className="text-gray-400 mr-1">01</span> Ventures
+                <span className="text-gray-400 mr-1">01</span> About Us
               </Link>
               <Link
                 href="/forma-mentis"
@@ -44,17 +44,12 @@ export default function Component() {
               >
                 <span className="text-gray-400 mr-1">02</span> Forma mentis
               </Link>
-              <Link
-                href="/careers"
-                className="hover:text-[#96D800] transition-colors"
-              >
-                <span className="text-gray-400 mr-1">03</span> Careers
-              </Link>
+
               <Link
                 href="/linkedin"
                 className="hover:text-[#96D800] transition-colors"
               >
-                <span className="text-gray-400 mr-1">04</span> LinkedIn
+                <span className="text-gray-400 mr-1">03</span> LinkedIn
               </Link>
               <Button
                 variant="secondary"
