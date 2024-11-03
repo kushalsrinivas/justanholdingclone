@@ -7,7 +7,7 @@ export default function Capabilites() {
     <section className="bg-black text-white  md:py-24">
       <div className="container mx-auto px-4">
         {/* Top Section */}
-        <div className="grid md:grid-cols-2 gap-12 mb-16">
+        <div className="gap-12 mb-16">
           <div>
             <h2 className="text-sm uppercase tracking-wider mb-6 text-gray-400">
               CAPABILITIES
