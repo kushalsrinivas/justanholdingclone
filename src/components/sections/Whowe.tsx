@@ -1,4 +1,4 @@
-import { Target, ShoppingBag, Handshake, Heart } from "lucide-react";
+import { Target, ShoppingBag, Handshake } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import BlurFade from "../ui/blur-fade";
 export default function Component() {
@@ -64,20 +64,7 @@ export default function Component() {
           </BlurFade>
 
           {/* Our Values */}
-          <BlurFade delay={0.4} inView>
-            <div className="space-y-4">
-              <Heart className="h-10 w-10 text-gray-200" />
-              <h3 className="text-lg font-semibold">Our Values</h3>
-              <p className="text-gray-400">
-                Business is about people. We aim to connect the right people for
-                the right purposes, all sharing values like integrity, social
-                impact, and leadership.
-              </p>
-              <Button variant="link" className="text-gray-200 p-0">
-                DISCOVER MORE
-              </Button>
-            </div>
-          </BlurFade>
+       
         </div>
       </div>
     </section>
