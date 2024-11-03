@@ -117,8 +117,10 @@ export default function Component() {
               <div className="max-w-3xl">
                 <h1 className="mt-24 text-5xl  sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif leading-tight">
                   <BlurFade delay={0.2} inView>
-                    Empowering business with integrity, ensuring trust and
-                    satisfaction.
+                    <p>
+                      Empowering business with integrity, ensuring trust and
+                      satisfaction.
+                    </p>
                   </BlurFade>
                 </h1>
               </div>
