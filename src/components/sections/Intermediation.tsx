@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Intermediation() {
   return (
-    <div className="bg-black ">
+    <div className="bg-black pb-10">
       {/* Logo Bar */}
       <div className="container opacity-70 mx-auto px-4 py-8 mb-10">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center">
@@ -25,7 +25,7 @@ export default function Intermediation() {
       </div>
 
       {/* Split Screen Section */}
-      <div className="grid md:grid-cols-2">
+      <div className="grid md:grid-cols-2 sm:mt-0 mt-28">
         {/* Left Panel */}
         <div className="relative">
           {/* <div className="absolute inset-0 bg-black/60 z-10" />
@@ -36,7 +36,7 @@ export default function Intermediation() {
             height={600}
             className="w-full h-[500px] object-cover"
           /> */}
-          <div className="absolute bg-black inset-0 z-20 p-12 flex flex-col justify-center">
+          <div className="absolute  bg-black inset-0 z-20 p-12 flex flex-col justify-center">
             <div className="text-gray-400 mb-4 tracking-wider">
               INTERMEDIATION
             </div>

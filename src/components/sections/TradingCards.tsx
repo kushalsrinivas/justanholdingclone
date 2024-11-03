@@ -31,9 +31,6 @@ export default function TradingCards() {
                 <button className="bg-zinc-800 text-white px-6 py-3 hover:bg-zinc-700 transition-colors w-full mb-4">
                   REQUEST QUOTATION
                 </button>
-                <button className="bg-black text-sm text-white px-6 py-2 hover:bg-black/20 transition-colors w-full">
-                  FILL THE FORM FOR MORE INFORMATION
-                </button>
               </div>
             </div>
           </BlurFade>
@@ -59,9 +56,6 @@ export default function TradingCards() {
                 </p>
                 <button className="bg-zinc-800 text-white px-6 py-3 hover:bg-zinc-700 transition-colors w-full mb-4">
                   REQUEST QUOTATION
-                </button>
-                <button className="bg-black text-sm text-white px-6 py-2 hover:bg-black/50 transition-colors w-full">
-                  FILL THE FORM FOR MORE INFORMATION
                 </button>
               </div>
             </div>
@@ -89,9 +83,6 @@ export default function TradingCards() {
                 </p>
                 <button className="bg-zinc-800 text-white px-6 py-3 hover:bg-zinc-700 transition-colors w-full mb-4">
                   REQUEST QUOTATION
-                </button>
-                <button className="bg-black text-sm text-white px-6 py-2 hover:bg-gray-900 transition-colors w-full">
-                  FILL THE FORM FOR MORE INFORMATION
                 </button>
               </div>
             </div>

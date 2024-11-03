@@ -1,39 +1,11 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { MessageCircle, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import Image from "next/image";
 
 export default function ContactSection() {
   return (
-    <div className="bg-black text-white">
+    <div className="bg-black text-white pt-5">
       {/* Main Content Wrapper */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-8 p-8 lg:p-12">
-        {/* Left Side: Text Content */}
-        <div className="bg-black p-12 flex items-center justify-center">
-          <div>
-            <p className="text-xs uppercase text-gray-400 mb-2">
-              Our Forma Mentis
-            </p>
-            <h2 className="text-4xl font-serif text-gray-500 leading-snug">
-              <span className="text-white">
-                Innovative Leadership, Strategic Vision:
-              </span>
-              Driving growth through expertise, integrity, and collaboration.
-            </h2>
-          </div>
-        </div>
-
-        {/* Right Side: Placeholder for Building Image */}
-        <div className="relative">
-          <Image
-            src="/tellus.jpg"
-            alt="London cityscape"
-            width={800}
-            height={600}
-            className="w-full h-[500px] object-cover"
-          />
-        </div>
-      </div>
 
       {/* Contact and Address Section */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-8 p-8 lg:p-12">
