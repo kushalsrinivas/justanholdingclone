@@ -6,7 +6,7 @@ export default function Footer() {
         {/* Address Section */}
         <div className="mb-6 md:mb-0">
           <h4 className="text-lg font-semibold text-white">Wyoming</h4>
-          <p className="mt-2">VERDIAN APEX GROUP</p>
+          <p className="mt-2">VERDIAN APEX GROUP LLC</p>
           <p>30 N Gould St #46510 Sheridan, WY, 82801, USA</p>
         </div>
 
@@ -26,7 +26,10 @@ export default function Footer() {
       {/* Lower Footer */}
       <div className=" mt-6 pt-4 text-center text-sm text-gray-500">
         © 2024-2025{" "}
-        <span className="font-semibold text-white"> VERIDIAN APEX GROUP</span>
+        <span className="font-semibold text-white">
+          {" "}
+          VERIDIAN APEX GROUP LLC
+        </span>
       </div>
     </footer>
   );
