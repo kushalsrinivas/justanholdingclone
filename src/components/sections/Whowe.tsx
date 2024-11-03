@@ -1,122 +1,83 @@
-"use client";
 import { Target, ShoppingBag, Handshake, Heart } from "lucide-react";
+import { Button } from "@/components/ui/button";
 import BlurFade from "../ui/blur-fade";
-
-export default function WhoWe() {
+export default function Component() {
   return (
-    <section className="bg-black text-white px-6 py-16 md:py-24">
-      <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-2 gap-12 md:gap-24">
-          <div>
-            <BlurFade delay={0.25} inView>
-              <h2 className="text-sm uppercase tracking-wider mb-6 text-gray-400">
-                WHO WE ARE
-              </h2>
-            </BlurFade>
-            <BlurFade delay={0.5} inView>
-              <h1 className="text-5xl md:text-6xl font-serif leading-tight">
-                From the city we love, to all over the world. We create
-                impactful ventures.
-              </h1>
-            </BlurFade>
-          </div>
+    <section className="w-full bg-black text-white py-24">
+      <div className="container mx-auto px-4 md:px-6">
+        {/* Header Text */}
+        <div className="space-y-6 max-w-[800px] mb-12">
+          <h2 className="text-3xl md:text-5xl lg:text-6xl font-serif leading-tight">
+            From trusted partnerships,
+            <br />
+            to global excellence.
+            <br />
+            We create valuable trades.
+          </h2>
+        </div>
 
-          <div className="space-y-12">
-            <BlurFade delay={0.75} inView>
-              <p className="text-xl mb-4">
-                <span className="font-semibold">Business is about people.</span>{" "}
-                We aim to connect the right people for the right purposes, all
-                sharing values like{" "}
-                <span className="font-semibold">
-                  integrity, social impact, and leadership.
-                </span>
+        {/* Main Content Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+          {/* Our Mission */}
+          <BlurFade delay={0.25} inView>
+            <div className="space-y-4">
+              <Target className="h-10 w-10 text-gray-200" />
+              <h3 className="text-lg font-semibold">Our Mission</h3>
+              <p className="text-gray-400">
+                We are dedicated to facilitating seamless buying and selling of
+                valuable commodities, guided by strong ethics and shared values.
               </p>
-            </BlurFade>
-
-            <div className="grid sm:grid-cols-2 gap-8">
-              <BlurFade delay={1.0} inView>
-                <div>
-                  <Target className="w-8 h-8 mb-4" />
-                  <h3 className="text-xl font-semibold mb-3">
-                    Business Development
-                  </h3>
-                  <p className="text-gray-400 mb-3">
-                    DUBLECLICK™ is a 360° marketing agency that helps MNEs &
-                    SMEs to achieve their goals online and offline.
-                  </p>
-                  <a
-                    href="#"
-                    className="text-gray-500 hover:text-green-400 transition-colors"
-                  >
-                    DISCOVER MORE
-                  </a>
-                </div>
-              </BlurFade>
-
-              <BlurFade delay={1.25} inView>
-                <div>
-                  <div className="flex gap-1 mb-4">
-                    <ShoppingBag className="w-8 h-8" />
-                    <ShoppingBag className="w-8 h-8" />
-                  </div>
-                  <h3 className="text-xl font-semibold mb-3">
-                    Not Just a Brand
-                  </h3>
-                  <p className="text-gray-400 mb-3">
-                    ONEAM™ is more than a brand; it&apos;s a lifestyle. A
-                    creative studio and retail brand that delivers impactful
-                    branding and lifestyle goods.
-                  </p>
-                  <a
-                    href="#"
-                    className="text-gray-500 hover:text-green-400 transition-colors"
-                  >
-                    DISCOVER MORE
-                  </a>
-                </div>
-              </BlurFade>
-
-              <BlurFade delay={1.5} inView>
-                <div>
-                  <Handshake className="w-8 h-8 mb-4" />
-                  <h3 className="text-xl font-semibold mb-3">
-                    Intermediation Dept.
-                  </h3>
-                  <p className="text-gray-400 mb-3">
-                    Just an Holding is also a London-based trading company that
-                    operate mainly across the European Economic Area (EEA) in
-                    partnership with worldwide companies and realities.
-                  </p>
-                  <a
-                    href="#"
-                    className="text-gray-500 hover:text-green-400 transition-colors"
-                  >
-                    CONTACT US
-                  </a>
-                </div>
-              </BlurFade>
-
-              <BlurFade delay={1.75} inView>
-                <div>
-                  <Heart className="w-8 h-8 mb-4" />
-                  <h3 className="text-xl font-semibold mb-3">
-                    Philanthropy and Charity
-                  </h3>
-                  <p className="text-gray-400 mb-3">
-                    THE ONEAM FOUNDATION The ONEAM Foundation will play a
-                    crucial role to support and finance socially-active
-                    initiatives that lit the spark for a positive change.
-                  </p>
-                  <a
-                    href="#"
-                    className="text-gray-500 hover:text-green-400 transition-colors"
-                  >
-                    DISCOVER MORE
-                  </a>
-                </div>
-              </BlurFade>
+              <Button variant="link" className="text-gray-200 p-0">
+                DISCOVER MORE
+              </Button>
             </div>
-          </div>
+          </BlurFade>
+
+          {/* Expert Solutions */}
+          <BlurFade delay={0.3} inView>
+            <div className="space-y-4">
+              <ShoppingBag className="h-10 w-10 text-gray-200" />
+              <h3 className="text-lg font-semibold">Expert Solutions</h3>
+              <p className="text-gray-400">
+                Our expertise lies in identifying the right partners to ensure
+                reliable and efficient collaborations.
+              </p>
+              <Button variant="link" className="text-gray-200 p-0">
+                DISCOVER MORE
+              </Button>
+            </div>
+          </BlurFade>
+
+          {/* Customer Focus */}
+          <BlurFade delay={0.35} inView>
+            <div className="space-y-4">
+              <Handshake className="h-10 w-10 text-gray-200" />
+              <h3 className="text-lg font-semibold">Customer Focus</h3>
+              <p className="text-gray-400">
+                Our top priority is always customer satisfaction and ensuring
+                peace of mind in every trade and transaction.
+              </p>
+              <Button variant="link" className="text-gray-200 p-0">
+                CONTACT US
+              </Button>
+            </div>
+          </BlurFade>
+
+          {/* Our Values */}
+          <BlurFade delay={0.4} inView>
+            <div className="space-y-4">
+              <Heart className="h-10 w-10 text-gray-200" />
+              <h3 className="text-lg font-semibold">Our Values</h3>
+              <p className="text-gray-400">
+                Business is about people. We aim to connect the right people for
+                the right purposes, all sharing values like integrity, social
+                impact, and leadership.
+              </p>
+              <Button variant="link" className="text-gray-200 p-0">
+                DISCOVER MORE
+              </Button>
+            </div>
+          </BlurFade>
         </div>
       </div>
     </section>
