@@ -5,24 +5,6 @@ export default function Intermediation() {
   return (
     <div className="bg-black pb-10">
       {/* Logo Bar */}
-      <div className="container opacity-70 mx-auto px-4 py-8 mb-10">
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center">
-          <div className="text-white text-2xl font-bold">Dubleclik</div>
-          <div className="text-center">
-            <div className="text-white text-xl">JUST AN</div>
-            <div className="text-white text-xl">HOLDING</div>
-            <div className="text-white text-xs tracking-wider">
-              INTERMEDIATION
-            </div>
-          </div>
-          <div className="text-white text-3xl font-bold">ONEAM</div>
-          <div className="text-center">
-            <div className="text-white text-xl">THE</div>
-            <div className="text-white text-xl">ONEAM</div>
-            <div className="text-white text-xl">FOUNDATION</div>
-          </div>
-        </div>
-      </div>
 
       {/* Split Screen Section */}
       <div className="grid md:grid-cols-2 sm:mt-0 mt-28">

@@ -3,8 +3,8 @@ import BlurFade from "../ui/blur-fade";
 
 export default function TradingCards() {
   return (
-    <section className="bg-black text-white py-16">
-      <div className="container mx-auto px-4">
+    <section className="bg-black text-white pt-16">
+      <div className=" mx-auto px-4">
         <div className="grid md:grid-cols-3 gap-6">
           {/* Ultrafine Copper Powder Card */}
           <BlurFade delay={0.1} inView>

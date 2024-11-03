@@ -1,16 +1,10 @@
 "use client";
 
-import {
-  Accordion,
-  AccordionContent,
-  AccordionItem,
-  AccordionTrigger,
-} from "@/components/ui/accordion";
 import TradingCards from "./TradingCards";
 
 export default function Capabilites() {
   return (
-    <section className="bg-black text-white py-16 md:py-24">
+    <section className="bg-black text-white  md:py-24">
       <div className="container mx-auto px-4">
         {/* Top Section */}
         <div className="grid md:grid-cols-2 gap-12 mb-16">
@@ -24,7 +18,7 @@ export default function Capabilites() {
             </h1>
           </div>
 
-          <div className="self-center">
+          {/* <div className="self-center">
             <Accordion type="single" collapsible className="w-full">
               <AccordionItem value="item-1" className="border-white/20">
                 <AccordionTrigger className="text-xl hover:text-white/80">
@@ -66,7 +60,7 @@ export default function Capabilites() {
                 </AccordionContent>
               </AccordionItem>
             </Accordion>
-          </div>
+          </div> */}
         </div>
       </div>
       <TradingCards></TradingCards>

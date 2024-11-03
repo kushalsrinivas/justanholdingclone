@@ -4,12 +4,12 @@ import { Button } from "@/components/ui/button";
 
 export default function ContactSection() {
   return (
-    <div className="bg-black text-white pt-5">
-      {/* Main Content Wrapper */}
-
-      {/* Contact and Address Section */}
+    <div className="bg-black text-white p-5">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-0 lg:gap-8 p-8 lg:p-12">
         <div className="bg-black h-64">
+          <h2 className="text-sm uppercase tracking-wider mb-6 text-gray-400">
+            CONTACT
+          </h2>
           <div
             className="relative w-full overflow-hidden"
             style={{ paddingTop: "56.25%" }}
@@ -56,14 +56,14 @@ export default function ContactSection() {
             <CardHeader>
               <div className="flex items-center space-x-2">
                 <MapPin className="text-white" size={28} />
-                <p className="text-lg font-semibold">Legal address</p>
+                <p className="text-lg font-semibold"> Address</p>
               </div>
             </CardHeader>
             <CardContent className="space-y-">
               <p className="text-sm">
-                71-75 Shelton Street, WC2H 9JQ
-                <br />
-                London, United Kingdom
+                <h4 className="text-lg font-semibold text-white">Wyovoming</h4>
+                <p className="mt-2">VERDIAN APEX GROUP</p>
+                <p>30 N Gould St #46510 Sheridan, WY, 82801, USA</p>
               </p>
             </CardContent>
           </Card>

@@ -7,7 +7,7 @@ import Intermediation from "@/components/sections/Intermediation";
 import Capabilites from "@/components/sections/Capabilites";
 // import Statistics from "@/components/sections/Stats";
 import ContactSection from "@/components/sections/FormaMentis";
-import TellusAboutYou from "@/components/sections/TellusAboutYou";
+
 import Footer from "@/components/sections/Footer";
 
 import Globe from "@/components/ui/globe";
@@ -141,10 +141,11 @@ export default function Component() {
       <Intermediation></Intermediation>
       <Capabilites></Capabilites>
       {/* <Statistics></Statistics> */}
-      <section id="forma-mentis">
+      <section id="forma-mentis ">
         <ContactSection></ContactSection>
       </section>
-      <TellusAboutYou></TellusAboutYou>
+      {/* <TellusAboutYou></TellusAboutYou> */}
+      <div className="h-[20vh] bg-black"></div>
       <Footer></Footer>
     </>
   );
