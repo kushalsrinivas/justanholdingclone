@@ -13,6 +13,7 @@ import Footer from "@/components/sections/Footer";
 import Globe from "@/components/ui/globe";
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
+import BlurFade from "@/components/ui/blur-fade";
 
 export default function Component() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -115,8 +116,10 @@ export default function Component() {
             <div className="container mx-auto px-4 sm:px-6">
               <div className="max-w-3xl">
                 <h1 className="mt-24 text-5xl  sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif leading-tight">
-                  Empowering business with integrity, ensuring trust and
-                  satisfaction.
+                  <BlurFade delay={0.2} inView>
+                    Empowering business with integrity, ensuring trust and
+                    satisfaction.
+                  </BlurFade>
                 </h1>
               </div>
             </div>
