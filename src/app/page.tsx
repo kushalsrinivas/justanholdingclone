@@ -28,7 +28,7 @@ export default function Component() {
           <nav className="flex items-center justify-between">
             <Link href="/" className="flex flex-col items-center">
               <div className="text-3xl sm:text-2xl font-serif ">
-                VERRIDIAN APEX
+                VERIDIAN APEX
               </div>
               <div className="text-sm">GROUP</div>
             </Link>
