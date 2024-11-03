@@ -18,11 +18,12 @@ export default function ContactSection() {
             <iframe
               title="Google Map"
               className="absolute top-0 left-0 w-full h-full"
+              width="600"
+              height="450"
+              loading="lazy"
+              allowFullScreen
               frameBorder={0}
-              scrolling="no"
-              marginHeight={0}
-              marginWidth={0}
-              src="https://maps.google.com/maps?width=600&height=400&hl=en&q=wyoming&t=&z=14&ie=UTF8&iwloc=B&output=embed"
+              src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8&q=30%20N%20Gould%20St%20%2346510%20Sheridan%2C%20WY%2C%2082801%2C%20USA&zoom=10&maptype=roadmap"
             ></iframe>
           </div>
         </div>

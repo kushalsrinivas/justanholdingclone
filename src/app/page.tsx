@@ -38,15 +38,9 @@ export default function Component() {
               >
                 <span className="text-gray-400 mr-1">01</span> About Us
               </Link>
-              <Link
-                href="#forma-mentis"
-                className="hover:text-[#96D800] transition-colors"
-              >
-                <span className="text-gray-400 mr-1">02</span> Forma mentis
-              </Link>
 
               <Link href="/" className="hover:text-[#96D800] transition-colors">
-                <span className="text-gray-400 mr-1">03</span> LinkedIn
+                <span className="text-gray-400 mr-1">02</span> LinkedIn
               </Link>
               <Button
                 variant="secondary"
@@ -88,18 +82,12 @@ export default function Component() {
             >
               <span className="text-gray-400 mr-1">01</span> About Us
             </Link>
-            <Link
-              href="#forma-mentis"
-              className="hover:text-[#96D800] transition-colors"
-            >
-              <span className="text-gray-400 mr-1">02</span> Forma mentis
-            </Link>
 
             <Link
               href="/linkedin"
               className="hover:text-[#96D800] transition-colors"
             >
-              <span className="text-gray-400 mr-1">03</span> LinkedIn
+              <span className="text-gray-400 mr-1">02</span> LinkedIn
             </Link>
             <Button
               variant="secondary"
