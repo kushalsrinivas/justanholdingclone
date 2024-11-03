@@ -12,8 +12,8 @@ export default function Footer() {
 
         {/* Work Inquiries Section */}
         <div>
-          <h4 className="text-lg font-semibold text-white">Work inquiries</h4>
-          <p className="mt-2">Interested in working with us?</p>
+          <h4 className="text-lg font-semibold text-white">Enquires</h4>
+          <p className="mt-2">Email us for any enquires</p>
           <a
             href="mailto:info@justanholding.co.uk"
             className="text-gray-500 underline"
