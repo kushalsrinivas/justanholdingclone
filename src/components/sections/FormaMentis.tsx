@@ -40,7 +40,7 @@ export default function ContactSection() {
               <p className="text-sm">
                 Business and General inquiries:{" "}
                 <a
-                  href="mailto:info@justanholding.co.uk"
+                  href="mailto:info@veridianapex.com"
                   className="text-gray-500 underline"
                 >
                   info@verdianapex.com

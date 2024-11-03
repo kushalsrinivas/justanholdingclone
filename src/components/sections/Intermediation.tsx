@@ -26,7 +26,7 @@ export default function Intermediation() {
               Connect with us to discuss business opportunities.
             </h2>
             <button className="flex items-center gap-2 text-white border border-white px-6 py-3 hover:bg-white hover:text-black transition-colors w-fit">
-              <a href="mailto:info@justanholding.co.uk">CONTACT US</a>
+              <a href="mailto:info@veridianapex.com">CONTACT US</a>
               <ArrowRight className="w-4 h-4" />
             </button>
           </div>

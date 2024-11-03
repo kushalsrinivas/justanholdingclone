@@ -40,7 +40,7 @@ export default function Component() {
                 variant="secondary"
                 className="bg-[#1C2128] text-white hover:bg-[#2D333B]"
               >
-                <a href="mailto:info@justanholding.co.uk">CONTACT US</a>
+                <a href="mailto:info@veridianapex.com">CONTACT US</a>
               </Button>
             </div>
             <button className="md:hidden z-50" onClick={toggleMobileMenu}>
@@ -80,7 +80,7 @@ export default function Component() {
               variant="secondary"
               className="bg-[#1C2128] text-white hover:bg-[#2D333B]"
             >
-              <a href="mailto:info@justanholding.co.uk">CONTACT US</a>
+              <a href="mailto:info@veridianapex.com">CONTACT US</a>
             </Button>
           </div>
         </div>

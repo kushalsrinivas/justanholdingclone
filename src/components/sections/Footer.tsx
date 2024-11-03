@@ -15,7 +15,7 @@ export default function Footer() {
           <h4 className="text-lg font-semibold text-white">Enquires</h4>
           <p className="mt-2">Email us for any enquires</p>
           <a
-            href="mailto:info@justanholding.co.uk"
+            href="mailto:info@veridianapex.com"
             className="text-gray-500 underline"
           >
             info@verdianapex.com
