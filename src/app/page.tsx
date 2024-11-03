@@ -139,7 +139,7 @@ export default function Component() {
           <div className="relative h-full flex items-center z-20">
             <div className="container mx-auto px-4 sm:px-6">
               <div className="max-w-3xl">
-                <h1 className="mt-24 textfrtg5-5xl  sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif leading-tight">
+                <h1 className="mt-24 text-5xl  sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif leading-tight">
                   Empowering business with integrity, ensuring trust and
                   satisfaction.
                 </h1>
