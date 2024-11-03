@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/button";
 import WhoWe from "@/components/sections/Whowe";
 import Intermediation from "@/components/sections/Intermediation";
 import Capabilites from "@/components/sections/Capabilites";
-import Statistics from "@/components/sections/Stats";
+// import Statistics from "@/components/sections/Stats";
 import ContactSection from "@/components/sections/FormaMentis";
 import TellusAboutYou from "@/components/sections/TellusAboutYou";
 import Footer from "@/components/sections/Footer";
@@ -25,8 +25,11 @@ export default function Component() {
       <div className="min-h-screen bg-black text-white">
         <header className="fixed top-0 w-full z-50 px-4 sm:px-6 py-4 bg-[#0D1117]">
           <nav className="flex items-center justify-between">
-            <Link href="/" className="text-xl sm:text-2xl font-bold">
-              VERDIAN <span className="text-white">APEX</span>
+            <Link
+              href="/"
+              className="text-3xl sm:text-2xl font-serif font-bold"
+            >
+              VA
             </Link>
             <div className="hidden md:flex items-center space-x-6">
               <Link
@@ -136,9 +139,9 @@ export default function Component() {
           <div className="relative h-full flex items-center z-20">
             <div className="container mx-auto px-4 sm:px-6">
               <div className="max-w-3xl">
-                <h1 className="text-5xl  sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif leading-tight">
-                  Passion and competence merged together in a dynamic
-                  entrepreneurial ecosystem.
+                <h1 className="mt-24 text-5xl  sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-serif leading-tight">
+                  Empowering business with integrity, ensuring trust and
+                  satisfaction.
                 </h1>
               </div>
             </div>
@@ -148,7 +151,7 @@ export default function Component() {
       <WhoWe></WhoWe>
       <Intermediation></Intermediation>
       <Capabilites></Capabilites>
-      <Statistics></Statistics>
+      {/* <Statistics></Statistics> */}
       <ContactSection></ContactSection>
       <TellusAboutYou></TellusAboutYou>
       <Footer></Footer>

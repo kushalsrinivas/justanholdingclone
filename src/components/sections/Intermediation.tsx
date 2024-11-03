@@ -41,7 +41,7 @@ export default function Intermediation() {
               INTERMEDIATION
             </div>
             <h2 className="text-white text-4xl md:text-5xl font-serif mb-8 leading-tight">
-              Want to import/export goods? Let&apos;s talk!
+              Connect with us to discuss business opportunities.
             </h2>
             <button className="flex items-center gap-2 text-white border border-white px-6 py-3 hover:bg-white hover:text-black transition-colors w-fit">
               CONTACT US

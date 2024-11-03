@@ -7,8 +7,7 @@ export default function Footer() {
         <div className="mb-6 md:mb-0">
           <h4 className="text-lg font-semibold text-white">Wyovoming</h4>
           <p className="mt-2">VERDIAN APEX GROUP</p>
-          <p>71-75 Shelton Street, Covent Garden, WC2H 9JQ</p>
-          <p>London, United Kingdom</p>
+          <p>30 N Gould St #46510 Sheridan, WY, 82801, USA</p>
         </div>
 
         {/* Work Inquiries Section */}
