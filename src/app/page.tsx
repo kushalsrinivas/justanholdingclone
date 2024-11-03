@@ -33,22 +33,19 @@ export default function Component() {
             </Link>
             <div className="hidden md:flex items-center space-x-6">
               <Link
-                href="/forma-mentis"
+                href="#about"
                 className="hover:text-[#96D800] transition-colors"
               >
                 <span className="text-gray-400 mr-1">01</span> About Us
               </Link>
               <Link
-                href="/forma-mentis"
+                href="#forma-mentis"
                 className="hover:text-[#96D800] transition-colors"
               >
                 <span className="text-gray-400 mr-1">02</span> Forma mentis
               </Link>
 
-              <Link
-                href="/linkedin"
-                className="hover:text-[#96D800] transition-colors"
-              >
+              <Link href="/" className="hover:text-[#96D800] transition-colors">
                 <span className="text-gray-400 mr-1">03</span> LinkedIn
               </Link>
               <Button
@@ -86,28 +83,23 @@ export default function Component() {
           </button>
           <div className="flex flex-col h-full justify-center items-center space-y-8">
             <Link
-              href="/ventures"
+              href="#about"
               className="hover:text-[#96D800] transition-colors"
             >
-              <span className="text-gray-400 mr-1">01</span> Ventures
+              <span className="text-gray-400 mr-1">01</span> About Us
             </Link>
             <Link
-              href="/forma-mentis"
+              href="#forma-mentis"
               className="hover:text-[#96D800] transition-colors"
             >
               <span className="text-gray-400 mr-1">02</span> Forma mentis
             </Link>
-            <Link
-              href="/careers"
-              className="hover:text-[#96D800] transition-colors"
-            >
-              <span className="text-gray-400 mr-1">03</span> Careers
-            </Link>
+
             <Link
               href="/linkedin"
               className="hover:text-[#96D800] transition-colors"
             >
-              <span className="text-gray-400 mr-1">04</span> LinkedIn
+              <span className="text-gray-400 mr-1">03</span> LinkedIn
             </Link>
             <Button
               variant="secondary"
@@ -143,11 +135,15 @@ export default function Component() {
           </div>
         </main>
       </div>
-      <WhoWe></WhoWe>
+      <section id="about">
+        <WhoWe></WhoWe>
+      </section>
       <Intermediation></Intermediation>
       <Capabilites></Capabilites>
       {/* <Statistics></Statistics> */}
-      <ContactSection></ContactSection>
+      <section id="forma-mentis">
+        <ContactSection></ContactSection>
+      </section>
       <TellusAboutYou></TellusAboutYou>
       <Footer></Footer>
     </>
