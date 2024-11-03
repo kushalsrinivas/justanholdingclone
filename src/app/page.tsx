@@ -25,11 +25,11 @@ export default function Component() {
       <div className="min-h-screen bg-black text-white">
         <header className="fixed top-0 w-full z-50 px-4 sm:px-6 py-4 bg-[#0D1117]">
           <nav className="flex items-center justify-between">
-            <Link
-              href="/"
-              className="text-3xl sm:text-2xl font-serif font-bold"
-            >
-              VA
+            <Link href="/" className="flex flex-col items-center">
+              <div className="text-3xl sm:text-2xl font-serif ">
+                VERRIDIAN APEX
+              </div>
+              <div className="text-sm">GROUP</div>
             </Link>
             <div className="hidden md:flex items-center space-x-6">
               <Link
