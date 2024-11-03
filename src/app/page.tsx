@@ -33,15 +33,8 @@ export default function Component() {
               <div className="text-sm">GROUP</div>
             </Link>
             <div className="hidden md:flex items-center space-x-6">
-              <Link
-                href="#about"
-                className="hover:text-[#96D800] transition-colors"
-              >
-                <span className="text-gray-400 mr-1">01</span> About Us
-              </Link>
-
               <Link href="/" className="hover:text-[#96D800] transition-colors">
-                <span className="text-gray-400 mr-1">02</span> LinkedIn
+                LinkedIn
               </Link>
               <Button
                 variant="secondary"
@@ -78,17 +71,10 @@ export default function Component() {
           </button>
           <div className="flex flex-col h-full justify-center items-center space-y-8">
             <Link
-              href="#about"
-              className="hover:text-[#96D800] transition-colors"
-            >
-              <span className="text-gray-400 mr-1">01</span> About Us
-            </Link>
-
-            <Link
               href="/linkedin"
               className="hover:text-[#96D800] transition-colors"
             >
-              <span className="text-gray-400 mr-1">02</span> LinkedIn
+              LinkedIn
             </Link>
             <Button
               variant="secondary"
