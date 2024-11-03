@@ -62,7 +62,7 @@ export default function ContactSection() {
             </CardHeader>
             <CardContent className="space-y-">
               <p className="text-sm">
-                <h4 className="text-lg font-semibold text-white">Wyovoming</h4>
+                <h4 className="text-lg font-semibold text-white">wyoming</h4>
                 <p className="mt-2">VERDIAN APEX GROUP</p>
                 <p>30 N Gould St #46510 Sheridan, WY, 82801, USA</p>
               </p>
