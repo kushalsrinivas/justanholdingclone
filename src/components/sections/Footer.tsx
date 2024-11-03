@@ -5,7 +5,7 @@ export default function Footer() {
       <div className="container mx-auto px-6 md:px-12 flex flex-col md:flex-row justify-between">
         {/* Address Section */}
         <div className="mb-6 md:mb-0">
-          <h4 className="text-lg font-semibold text-white">wyoming</h4>
+          <h4 className="text-lg font-semibold text-white">Wyoming</h4>
           <p className="mt-2">VERDIAN APEX GROUP</p>
           <p>30 N Gould St #46510 Sheridan, WY, 82801, USA</p>
         </div>
