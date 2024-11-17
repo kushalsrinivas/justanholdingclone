@@ -40,6 +40,8 @@ export default function Component() {
                 variant="secondary"
                 className="bg-[#1C2128] text-white hover:bg-[#2D333B]"
               >
+
+
                 <a href="mailto:info@veridianapex.com">CONTACT US</a>
               </Button>
             </div>
