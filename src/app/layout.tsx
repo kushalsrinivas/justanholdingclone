@@ -2,7 +2,6 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 
 import "./globals.css";
-import Head from "next/head";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -20,6 +19,7 @@ export const metadata: Metadata = {
   description: "a sexy ahh group",
   icons: {
     icon: "/favicon.ico",
+    apple: "/apple-touch-icon.png", // Optional, for Apple devices
   },
 };
 
@@ -30,9 +30,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-      </Head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} bg-black antialiased scroll-smooth`}
       >
