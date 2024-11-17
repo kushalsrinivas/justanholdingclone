@@ -29,7 +29,7 @@ export default function TradingCards() {
                   product.
                 </p>
                 <button className="bg-zinc-800 text-white px-6 py-3 hover:bg-zinc-700 transition-colors w-full mb-4">
-                  REQUEST QUOTATION
+                  <a href="mailto:info@veridianapex.com">REQUEST QUOTATION</a>
                 </button>
               </div>
             </div>
@@ -55,7 +55,7 @@ export default function TradingCards() {
                   standards. Ensuring the best quality from reliable suppliers.
                 </p>
                 <button className="bg-zinc-800 text-white px-6 py-3 hover:bg-zinc-700 transition-colors w-full mb-4">
-                  REQUEST QUOTATION
+                  <a href="mailto:info@veridianapex.com">REQUEST QUOTATION</a>
                 </button>
               </div>
             </div>
@@ -82,7 +82,7 @@ export default function TradingCards() {
                   sustainability.
                 </p>
                 <button className="bg-zinc-800 text-white px-6 py-3 hover:bg-zinc-700 transition-colors w-full mb-4">
-                  REQUEST QUOTATION
+                  <a href="mailto:info@veridianapex.com">REQUEST QUOTATION</a>
                 </button>
               </div>
             </div>
