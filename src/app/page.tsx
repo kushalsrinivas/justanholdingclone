@@ -32,7 +32,10 @@ export default function Component() {
               <div className="text-sm">GROUP</div>
             </Link>
             <div className="hidden md:flex items-center space-x-6">
-              <Link href="/" className="hover:text-[#96D800] transition-colors">
+              <Link
+                href="https://www.linkedin.com/in/veridian-apex-20014b339/"
+                className="hover:text-[#96D800] transition-colors"
+              >
                 LinkedIn
               </Link>
               <Button
@@ -70,7 +73,7 @@ export default function Component() {
           </button>
           <div className="flex flex-col h-full justify-center items-center space-y-8">
             <Link
-              href="/linkedin"
+              href="https://www.linkedin.com/in/veridian-apex-20014b339/"
               className="hover:text-[#96D800] transition-colors"
             >
               LinkedIn
