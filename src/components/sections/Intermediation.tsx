@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Intermediation() {
   return (
-    <div className="bg-black pb-10">
+    <div className="bg-black pb-10 mb-96 md:mb-0 lg:mb-0">
       {/* Logo Bar */}
 
       {/* Split Screen Section */}
@@ -33,7 +33,7 @@ export default function Intermediation() {
         </div>
 
         {/* Right Panel */}
-        <div className="relative ">
+        <div className="relative  hidden md:flex lg:flex ">
           <div className="absolute  inset-0 bg-black opacity-50 mix-blend-multiply z-10" />
           <Image
             src="/handshake.jpg"
