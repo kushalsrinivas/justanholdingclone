@@ -73,12 +73,14 @@ export default function Component() {
                   </p>
                 </CardContent>
                 <CardFooter>
-                  <Button
-                    variant="ghost"
-                    className="hover:bg-white/10 text-white hover:text-white transition-colors"
-                  >
-                    {feature.action}
-                  </Button>
+                  <a href="mailto:info@veridianapex.com">
+                    <Button
+                      variant="ghost"
+                      className="hover:bg-white/10 text-white hover:text-white transition-colors"
+                    >
+                      {feature.action}
+                    </Button>
+                  </a>
                 </CardFooter>
               </Card>
             </motion.div>
